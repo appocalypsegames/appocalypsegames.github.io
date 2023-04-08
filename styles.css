@@ -122,3 +122,35 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.social-icon img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform .3s;
+}
+
+.social-icon:hover img {
+  transform: scale(1.2);
+}
