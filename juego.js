@@ -1,11 +1,9 @@
-// Obtener el div del footer
-const footer = document.querySelector('footer');
 
 // Crear un elemento canvas y agregarlo al div del footer
 const canvas = document.createElement('canvas');
-canvas.width = 400;
+canvas.width = window.innerWidth;
 canvas.height = 50;
-footer.querySelector('.minijuego').appendChild(canvas);
+document.getElementById("minijuego").appendChild(canvas);
 
 const ctx = canvas.getContext('2d');
 
@@ -13,13 +11,24 @@ const ctx = canvas.getContext('2d');
 let x = 50;
 let y = 50;
 const radius = 5;
-
+let text = 0;
 function drawBall() {
   // Dibujar la bola
   ctx.beginPath();
   ctx.arc(x, y, radius, 0, Math.PI*2);
   ctx.fillStyle = 'red';
   ctx.fill();
+}
+
+const SQUARE_SIZE = 10;
+let xCuadrado = Math.random() * canvas.width-10;
+
+// Calcular altura aleatoria para el cuadrado
+let yCuadrado = Math.random() * canvas.height-10;
+function pintarCuadrado() {
+  // Dibujar cuadrado amarillo
+  ctx.fillStyle = 'black';
+  ctx.fillRect(xCuadrado, yCuadrado, SQUARE_SIZE, SQUARE_SIZE);
 }
 
 let joystick = { x: 0, y: 0 };
@@ -74,6 +83,25 @@ function gameLoop() {
   // Dibujar la bola
   drawBall();
 
+  pintarCuadrado();
+  console.log(x);
+  console.log(xCuadrado);
+  if (x > xCuadrado - 5 && x < xCuadrado + 15 &&
+	y > yCuadrado - 5 && y < yCuadrado + 15) {
+	xCuadrado = Math.random() * canvas.width-10;
+
+	// Calcular altura aleatoria para el cuadrado
+	yCuadrado = Math.random() * canvas.height-10;
+	text++;
+  }
+  
+	// Configurar fuente y tamaño de letra
+	ctx.font = '20px Arial';
+
+	
+	ctx.fillStyle = 'black';
+	ctx.fillText(text, 10, 30);
+	
   // Actualizar la posición de la bola
   update();
 
