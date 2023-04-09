@@ -4,7 +4,7 @@ const footer = document.querySelector('footer');
 // Crear un elemento canvas y agregarlo al div del footer
 const canvas = document.createElement('canvas');
 canvas.width = 400;
-canvas.height = 400;
+canvas.height = 50;
 footer.querySelector('.minijuego').appendChild(canvas);
 
 const ctx = canvas.getContext('2d');
@@ -12,7 +12,7 @@ const ctx = canvas.getContext('2d');
 // Posición inicial de la bola
 let x = 50;
 let y = 50;
-const radius = 20;
+const radius = 5;
 
 function drawBall() {
   // Dibujar la bola
@@ -29,6 +29,28 @@ canvas.addEventListener('mousemove', function(event) {
   const rect = canvas.getBoundingClientRect();
   joystick.x = event.clientX - rect.left;
   joystick.y = event.clientY - rect.top;
+});
+
+canvas.addEventListener('touchstart', function(event) {
+  // Actualizar la posición del joystick
+  const rect = canvas.getBoundingClientRect();
+  joystick.x = event.touches[0].clientX - rect.left;
+  joystick.y = event.touches[0].clientY - rect.top;
+
+  // Marcar el joystick como presionado
+  joystickPressed = true;
+});
+
+canvas.addEventListener('touchmove', function(event) {
+  // Actualizar la posición del joystick
+  const rect = canvas.getBoundingClientRect();
+  joystick.x = event.touches[0].clientX - rect.left;
+  joystick.y = event.touches[0].clientY - rect.top;
+});
+
+canvas.addEventListener('touchend', function(event) {
+  // Marcar el joystick como no presionado
+  joystickPressed = false;
 });
 
 function update() {
