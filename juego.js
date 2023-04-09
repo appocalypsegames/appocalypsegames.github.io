@@ -84,8 +84,6 @@ function gameLoop() {
   drawBall();
 
   pintarCuadrado();
-  console.log(x);
-  console.log(xCuadrado);
   if (x > xCuadrado - 5 && x < xCuadrado + 15 &&
 	y > yCuadrado - 5 && y < yCuadrado + 15) {
 	xCuadrado = Math.random() * canvas.width-10;
