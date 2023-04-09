@@ -198,9 +198,3 @@ canvas{
 .menu:hover{
 	border-bottom: 5px solid white;
 }
-
-@media (max-width: 767px) {
-  body {
-    min-height: calc(100vh - 100px); /* ajusta la altura para asegurar que el footer se muestre en la parte inferior */
-  }
-}
