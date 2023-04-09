@@ -186,3 +186,7 @@ canvas{
   90% { transform: translateX(-10px) rotate(-5deg); }
   100% { transform: translateX(0); }
 }
+
+.menu:hover{
+	border-bottom: 5px solid white;
+}
