@@ -49,6 +49,9 @@ nav a {
 	width: calc(33.33% - 20px);
 	box-sizing: border-box;
 	text-align: center;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 .game img {
