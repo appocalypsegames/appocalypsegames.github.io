@@ -7,17 +7,16 @@ document.getElementById("minijuego").appendChild(canvas);
 
 const ctx = canvas.getContext('2d');
 
+const img = new Image();
+img.src = 'images/ranapepe.jpg';
 // Posición inicial de la bola
 let x = 50;
 let y = 50;
-const radius = 5;
+const radius = 50;
 let text = 0;
 function drawBall() {
   // Dibujar la bola
-  ctx.beginPath();
-  ctx.arc(x, y, radius, 0, Math.PI*2);
-  ctx.fillStyle = 'red';
-  ctx.fill();
+  ctx.drawImage(img, x, y, radius, img.height * (radius / img.width));
 }
 
 const SQUARE_SIZE = 10;
@@ -83,7 +82,7 @@ function gameLoop() {
   // Dibujar la bola
   drawBall();
 
-  pintarCuadrado();
+  /*pintarCuadrado();
   if (x > xCuadrado - 5 && x < xCuadrado + 15 &&
 	y > yCuadrado - 5 && y < yCuadrado + 15) {
 	xCuadrado = Math.random() * canvas.width-10;
@@ -99,7 +98,7 @@ function gameLoop() {
 	
 	ctx.fillStyle = 'black';
 	ctx.fillText(text, 10, 30);
-	
+	*/
   // Actualizar la posición de la bola
   update();
 
@@ -107,5 +106,6 @@ function gameLoop() {
   requestAnimationFrame(gameLoop);
 }
 
-// Iniciar el bucle de animación
-gameLoop();
+img.onload = function() {
+  gameLoop();
+}

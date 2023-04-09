@@ -1,4 +1,4 @@
-let veces=10;
+let veces=1000000;
 function vibrar() {
   var img = document.querySelector(".vibrar");
   img.classList.add("vibrando");
