@@ -12,3 +12,9 @@ function vibrar() {
 	  img.src = "images/illuminati.png";
   }
 }
+document.addEventListener("DOMContentLoaded", function() {
+	// Get the element by its ID
+	var year = document.getElementById("year");
+	// Update the innerHTML with the current year
+	year.innerHTML = "© " + new Date().getFullYear() + " Appocalypse Games";
+});
