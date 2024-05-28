@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <title>Drunkathon x Appocalypse Games</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="../styles.css">
+	  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	  <link rel="manifest" href="../site.webmanifest">
+	  <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+	  <meta name="msapplication-TileColor" content="#da532c">
+	  <meta name="theme-color" content="#ffffff">
+	  <meta name="description" content="Drunkathon x Appocalypse Games">
+   </head>
+   <body class="w3-black">
+      <!-- Icon Bar (Sidebar - hidden on small screens) -->
+      <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+         <a href="../index" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>HOME</p>
+         </a>
+         <a href="../games" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-gamepad w3-xxlarge"></i>
+            <p>GAMES</p>
+         </a>
+         <a href="../support" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-support w3-xxlarge"></i>
+            <p>SUPPORT</p>
+         </a>
+         <a href="../about-us" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="material-icons w3-xxlarge">person</i>
+            <p>ABOUT US</p>
+         </a>
+      </nav>
+      <!-- Navbar on small screens (Hidden on medium and large screens) -->
+      <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+         <div class="w3-bar w3-center w3-small w3-black">
+            <a href="../index" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">HOME</a>
+            <a href="../games" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">GAMES</a>
+            <a href="../support" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">SUPPORT</a>
+            <a href="../about-us" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">ABOUT US</a>
+         </div>
+      </div>
+      <!-- Page Content -->
+      <div class="w3-padding-large" id="main">
+         <div class="w3-container w3-padding-32 w3-center w3-black">
+            <img src="../images/drunkathon/logoDrunkathon.png" alt="Logo Drunkathon" class="w3-image w3-margin-top" width="400">
+            <div class="w3-padding-64 w3-content">
+               <p class="w3-wide ">Take your parties to the next level with our drinking game packed with exciting mini-games!</p>
+               <br><br>
+               <div class="w3-content" style="max-width:400px">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/1.png" style="width:100%;">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/2.png" style="width:100%;display:none">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/3.png" style="width:100%;display:none">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/4.png" style="width:100%;display:none">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/5.png" style="width:100%;display:none">
+                  <img class="mySlides w3-margin-top" src="../images/drunkathon/6.png" style="width:100%;display:none">
+                  <div class="w3-row-padding w3-section">
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/1.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+                     </div>
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/2.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+                     </div>
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/3.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+                     </div>
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/4.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+                     </div>
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/5.png" style="width:100%;cursor:pointer" onclick="currentDiv(5)">
+                     </div>
+                     <div class="w3-col s2">
+                        <img class="demo w3-opacity w3-hover-opacity-off" src="../images/drunkathon/6.png" style="width:100%;cursor:pointer" onclick="currentDiv(6)">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="w3-content w3-justify w3-text-grey" id="games">
+               <h3 class="w3-padding-16 w3-text-light-grey">Available on</h3>
+               <div class="w3-row-padding" style="margin:0 -10px">
+                  <a href="https://play.google.com/store/apps/details?id=com.appocalypsegames.drunkathonpro"><i class="fa fa-android w3-hover-opacity w3-jumbo w3-margin-right"></i></a>
+               </div>
+               <div class="w3-row-padding" style="margin-top:20px">
+               </div>
+            </div>
+         </div>
+         <!-- Footer -->
+         <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge w3-cell-bottom">
+            <a href="../privacy-policy/drunkathon" style="text-decoration:none;font-weight: bold;">
+               <p class="w3-medium">Privacy Policy</p>
+            </a>
+            <p class="w3-small">Follow us on<br>
+               <a href="https://www.instagram.com/appocalypsegames/"><i class="fa fa-instagram w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+               <a href="https://x.com/appocalypseplay"><i class="fa fa-twitter w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+               <a href="https://www.youtube.com/@appocalypsegames7798"><i class="fa fa-youtube-play w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+            </p>
+            <p class="w3-medium">© 2016-2024 Appocalypse Games. All rights reserved.</p>
+            <!-- End footer -->
+         </footer>
+         <!-- END PAGE CONTENT -->
+      </div>
+      <script>
+         function currentDiv(n) {
+           showDivs(slideIndex = n);
+         }
+         
+         function showDivs(n) {
+           var i;
+           var x = document.getElementsByClassName("mySlides");
+           var dots = document.getElementsByClassName("demo");
+           if (n > x.length) {slideIndex = 1}
+           if (n < 1) {slideIndex = x.length}
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+           }
+           for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+           }
+           x[slideIndex-1].style.display = "block";
+           dots[slideIndex-1].className += " w3-opacity-off";
+         }
+      </script>
+   </body>
+</html>
