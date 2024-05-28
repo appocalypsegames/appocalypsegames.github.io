@@ -1,143 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Appocalypse Games</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="script.js"></script>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-</head>
-<body>
-	<header>
-		<a href="index.html"><img src="images/logoAppocalypse.png" alt="logoAppocalypseGames"></a>
-		<nav>
-			<ul>
-				<li><a href="index.html" class="menu">Games</a></li>
-				<li><a href="about.html" class="menu">Contact Us</a></li>
-				<li><a href="privacy.html" class="menu" >Privacy Policy</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="games">
-			
-			<div class="game">
-				<img src="images/bowlingoverit.jpeg" alt="BowlingOverIt">
-				<h2>Bowling Over It</h2>
-				<p>Bowling Over It is an unsettling platforming game about climbing to the top of the world, hitting the most pins as possible, in the shorter time you can.</p>
-				<div class="buttons">
-					<a href="https://store.steampowered.com/app/1043120/Bowling_Over_It/"><img src="images/steam.png" alt="Steam"></a>
-					<a href="https://play.google.com/store/apps/details?id=com.AppocalypseGames.BowlingOverIt&hl=ca&gl=US&pli=1"><img src="images/android.png" alt="Android"></a>
-					<a href="https://apps.apple.com/us/app/bowling-over-it/id1489994355"><img src="images/apple.png" alt="Apple"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/drunkathonpro.png" alt="DrunkathonPro">
-				<h2>Drunkathon Pro</h2>
-				<p>Liven up your parties with fun and daring mini-games! Download it now!</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.appocalypsegames.drunkathonpro"><img src="images/android.png" alt="Android"></a>
-					<a href="https://apps.apple.com/us/app/drunkathon-pro-drinking-games/id6503172671"><img src="images/apple.png" alt="Apple"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/daretopair.png" alt="DareToPair">
-				<h2>Dare To Pair!</h2>
-				<p>Cook a homemade burger... Knock down all the pins... Win a game of Tic Tac Toe... And much more!</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.AppocalypseGames.DareToPair&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-					<a href="https://apps.apple.com/us/app/dare-to-pair/id6444455291"><img src="images/apple.png" alt="Apple"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/kaydy.jpeg" alt="KaydyCain">
-				<h2>Kaydy Cain - Reggaeton Salvation</h2>
-				<p>¿Quieres escuchar el último tema de El Juguete de tu Muñeca? Primero, pásate el juego.</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.AppocalypseGames.KaydyCainReggaetonSalvation&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-					<a href="https://apps.apple.com/us/app/kaydy-cain-reggaeton-salvation/id1563051575"><img src="images/apple.png" alt="Apple"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/drmachine.jpg" alt="DrMachine">
-				<h2>Dr. Machine - Brain Hacking</h2>
-				<p>Get ready to face the challenges of Dr. Machine!</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.AppocalypseGames.DrMachineBrainHacking&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-					<a href="https://apps.apple.com/us/app/dr-machine-brain-hacking/id1536345101"><img src="images/apple.png" alt="Apple"></a>
-				</div>
-			</div>
-			
-			<!--<div class="game">
-				<img src="images/illuminatihand.png" alt="IlluminatiGand">
-				<h2>Illuminati Hand</h2>
-				<p>Only the most powerful will reach 333 points in Insane mode. The rest of the mortals could be happy to unlock it.</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.Appocalypse.IlluminatiHand&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/fullborrachos.png" alt="Full Borrachos">
-				<h2>Full Borrachos</h2>
-				<p>Drink with your friends and fight to end up with this fantastic app!</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.games.appocalypse.fullborracho&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/illuminatitamago.png" alt="IlluminatiTamago" class="vibrar" onclick="vibrar()">
-				<h2>Illuminati Tamago</h2>
-				<p id="textoTamago">Click 1.000.000 times on the Illuminati egg and discover what is inside.</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.games.appocalypse.illuminatitamago&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/mostclickedegg.png" alt="MostClickedEgg">
-				<h2>Most Clicked Egg</h2>
-				<p>Help Lil Eggy tell his story, the global counter indicates when the story progresses. The story will be advancing in certain points that will be updated in the description of the chapter.</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.appocalypsegames.mostclickedegg&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-				</div>
-			</div>
-			
-			<div class="game">
-				<img src="images/takari.png" alt="Takari">
-				<h2>TAKARI: PUNCHING BAG</h2>
-				<p>Punching bag with punch counter.</p>
-				<div class="buttons">
-					<a href="https://play.google.com/store/apps/details?id=com.Appocalypse.Games&hl=ca&gl=US"><img src="images/android.png" alt="Android"></a>
-				</div>
-			</div>-->
-			
-			<div class="game">
-				<img src="images/abu.jpg" alt="Abu">
-				<h2>Abu - The Lost Pyramid</h2>
-				<p>Help Abu to recover his stones.</p>
-				<div class="buttons">
-					<a href="https://appocalypsegames.itch.io/abu-the-lost-pyramid"><img src="images/itchio.png" alt="itchio"></a>
-				</div>
-			</div>
-				<!--<iframe src="https://store.steampowered.com/widget/1043120/" frameborder="0" width="500" height="200" float="left"></iframe>-->
-		</section>
-	</main>
-	<div class="minijuego" id="minijuego"></div>
-	<script src="juego.js"></script>
-	<script src="script.js"></script>
-	<footer>
-		<p id="year">© 2023 Appocalypse Games</p>
-	</footer>
-</body>
+<html lang = "en">
+   <head>
+      <title>Appocalypse Games</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+	  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	  <link rel="manifest" href="/site.webmanifest">
+	  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	  <meta name="msapplication-TileColor" content="#da532c">
+	  <meta name="theme-color" content="#ffffff">
+	  <meta name="description" content="Appocalypse Games">
+   </head>
+   <body class="w3-black">
+      <!-- Icon Bar (Sidebar - hidden on small screens) -->
+      <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+         <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white w3-hover-dark-grey">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>HOME</p>
+         </a>
+         <a href="games" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-gamepad w3-xxlarge"></i>
+            <p>GAMES</p>
+         </a>
+         <a href="support" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="fa fa-support w3-xxlarge"></i>
+            <p>SUPPORT</p>
+         </a>
+         <a href="about-us" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-grey">
+            <i class="material-icons w3-xxlarge">person</i>
+            <p>ABOUT US</p>
+         </a>
+      </nav>
+      <!-- Navbar on small screens (Hidden on medium and large screens) -->
+      <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+         <div class="w3-bar w3-center w3-small w3-black">
+            <a href="#" class="w3-bar-item w3-button w3-white w3-hover-dark-grey" style="width:25% !important">HOME</a>
+            <a href="games" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">GAMES</a>
+            <a href="support" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">SUPPORT</a>
+            <a href="about-us" class="w3-bar-item w3-button w3-hover-dark-grey" style="width:25% !important">ABOUT US</a>
+         </div>
+      </div>
+      <!-- Page Content -->
+      <div class="w3-padding-large" id="main">
+         <!-- Header/Home -->
+         <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <img src="images/logoAppocalypse.png" alt="logoAppocalypseGames" class="w3-image" width="1000">
+            <div class="w3-padding-64 w3-content" id="makers">
+               <p class="w3-wide">Makers of Bowling Over It, Dr.Machine - Brain Hacking, Kaydy Cain - Reggaeton Salvation, Dare to Pair! and Drunkathon.</p>
+            </div>
+            <img src="images/appocalypse-panel.png" alt="Appocalypse Panel" class="w3-image" width="1300">
+         </header>
+         <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="games">
+            <h3 class="w3-padding-16 w3-text-light-grey">Stores</h3>
+            <div class="w3-row-padding" style="margin:0 -10px">
+               <a href="https://play.google.com/store/apps/developer?id=Appocalypse+Games"><i class="fa fa-android w3-hover-opacity w3-jumbo w3-margin-right"></i></a>
+               <a href="https://apps.apple.com/us/developer/eduardo-nunez-matas/id1489994354"><i class="fa fa-apple w3-hover-opacity w3-jumbo w3-margin-right"></i></a>
+               <a href="https://store.steampowered.com/search/?developer=Appocalypse%20Games&ndl=1"><i class="fa fa-steam-square w3-hover-opacity w3-jumbo w3-margin-right"></i></a>
+            </div>
+         </div>
+         <!-- Footer -->
+         <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge w3-cell-bottom">
+            <p class="w3-small">Follow us on<br>
+               <a href="https://www.instagram.com/appocalypsegames/"><i class="fa fa-instagram w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+               <a href="https://x.com/appocalypseplay"><i class="fa fa-twitter w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+               <a href="https://www.youtube.com/@appocalypsegames7798"><i class="fa fa-youtube-play w3-hover-opacity w3-xxlarge w3-margin-right"></i></a>
+            </p>
+            <p class="w3-medium">© 2016-2024 Appocalypse Games. All rights reserved.</p>
+            <!-- End footer -->
+         </footer>
+         <!-- END PAGE CONTENT -->
+      </div>
+   </body>
 </html>
