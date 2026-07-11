@@ -5,82 +5,90 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
 <url>
   <loc>https://appocalypsegames.com/</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
+  <lastmod>2026-07-11</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/support</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/about-us</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://appocalypsegames.com/index</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games/bowling-over-it</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games/dr-machine-brain-hacking</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games/kaydy-cain-reggaeton-salvation</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games/dare-to-pair</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/games/boooz</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://appocalypsegames.com/games/beyond-the-pitch</loc>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://appocalypsegames.com/privacy-policy</loc>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/privacy-policy/bowling-over-it</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/privacy-policy/dr-machine-brain-hacking</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/privacy-policy/kaydy-cain-reggaeton-salvation</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/privacy-policy/dare-to-pair</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://appocalypsegames.com/privacy-policy/boooz</loc>
-  <lastmod>2024-05-28T19:22:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
 </url>
-
+<url>
+  <loc>https://appocalypsegames.com/privacy-policy/beyond-the-pitch</loc>
+  <lastmod>2026-07-11</lastmod>
+  <priority>0.40</priority>
+</url>
 
 </urlset>
